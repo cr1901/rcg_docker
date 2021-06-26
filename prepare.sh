@@ -3,6 +3,7 @@
 mkdir build/gcc
 cd build/gcc
 ../../gcc/configure --prefix=/usr --enable-languages=jit,c++ --disable-multilib --disable-bootstrap --enable-host-shared --enable-checking=release
+make
 
 echo /work/build/gcc/gcc > /work/rustc_codegen_gcc/gcc_path
 
