@@ -13,5 +13,6 @@ RUN apt-get update && apt-get install -y \
     m4 \
     curl \
     git \
-    python
+    python \
+    ninja-build
 RUN curl https://sh.rustup.rs -sSf | sh -s -- -y --default-toolchain none --profile minimal

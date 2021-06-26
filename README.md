@@ -14,4 +14,3 @@ Inside the container, run `prepare.sh`. Right now, only gcc build artifacts are
 saved; the rust/cargo part of the build is quick enough.
 
 After running `prepare.sh`, cd to `/work/rustc_codegen_gcc`, and then run `./test.sh --release`.
-We should get to the part where `rg` runs and then bomb w/ `command not found`.
