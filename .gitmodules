@@ -1,0 +1,7 @@
+[submodule "gcc"]
+	path = gcc
+	url = https://github.com/antoyo/gcc.git
+	shallow = true
+[submodule "rustc_codegen_gcc"]
+	path = rustc_codegen_gcc
+	url = https://github.com/antoyo/rustc_codegen_gcc.git
